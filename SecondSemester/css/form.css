@@ -1,0 +1,133 @@
+/* Application form styling */
+.SignIn{
+    font-size: 15px;
+    text-align: right;
+    margin: 10px;
+    margin-left: 70%;
+    font-weight: 500;
+}
+.SignIn a{
+    color:#3587ed;
+    font-size: 15px;
+}
+
+.light-text{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.bottom-text{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form-page{
+    display: flex;
+    padding: 40px;
+}
+
+.image-section{
+    max-width: 43%;
+    text-align: center;
+    margin:0 5%;
+}
+
+.big-text{
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.social-icons{
+    margin-top: 5%;
+}
+
+.full-form{
+    display: flex;
+    column-gap: 40px;
+}
+
+.half-form{
+    width: 50%;
+}
+
+a, i{
+    margin-right: 10px;
+}
+
+label, option{
+    font-size: 16px;
+}
+
+input, select{
+    border-radius: 10px;
+    border:  none;
+    font-size: 16px;
+    background-color: #fafafa;
+    height: 40px;
+    width:100%;
+    padding: 5px;
+}
+
+input:focus, select:focus{
+  outline: none;
+  border: none;
+}
+
+.footer-text, .footer-text span {
+    margin-top: 30px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.footer-text span{
+    color: #1c31a7;
+    opacity: 1;
+}
+
+.submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6b6ff5;
+    color: #fff;
+    font-size: 13px;
+}
+
+.submit span{
+    font-size: 25px;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+}
+
+option{
+    max-width: 40%;
+}
+
+/* media querries */
+@media screen and (max-width: 1200px){
+.banner-text{
+    font-size: 31px;
+    font-weight: 500;
+
+}}
+@media screen and (max-width: 800px){
+    .form-page{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .full-form{
+        flex-direction: column;
+    }
+
+    .half-form{
+        width: 95%;
+    }  
+}
