@@ -1,0 +1,15 @@
+table{
+    /* padding: 20px; */
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2){
+    padding-left: 10px;
+}
+table th, table td{
+    border-bottom: 1px solid #ddd;
+}

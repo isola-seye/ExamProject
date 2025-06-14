@@ -1,0 +1,108 @@
+/* main css styling */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: "Lexend", sans-serif;
+}
+
+.navigation-header{ 
+   background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(1, 44, 94) 20%, rgb(59, 9, 151) 52%, rgb(0, 0, 141) 100%);
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   flex-wrap: wrap-reverse; 
+   color: #fff;
+   margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+ }
+
+a :focus, a:hover{
+    color: #d6cae0;
+ }
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 30px; 
+    padding-bottom: 0;
+}
+
+
+/* Home page css styling*/
+.text-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 20px 0;
+}
+
+p{
+    margin-top: 12px;
+    max-width: 800px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.text:last-child{
+    margin-bottom: 50px;
+}
+
+a.back-to-top{
+    margin-left: 70%;
+}  
+
+
+/* media queries */
+@media screen and (max-width: 1024px) {   
+    .nav-header{
+        justify-content: center;
+        align-items: center;
+    }
+     nav{
+        width: 100%;  
+        display: flex;
+        justify-content: flex-end;
+    }
+   
+    .banner-text{
+        font-size: 29px;
+    }
+
+    .small-text{
+        font-size: 12px;
+    }
+
+    .icons{
+        font-size:20px; 
+        color:#3587ed;
+        margin-right: 3px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav a{
+         font-size: 20px;
+    }
+}
